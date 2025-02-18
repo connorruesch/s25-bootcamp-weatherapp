@@ -28,7 +28,7 @@ struct WeeklyForecastRowView: View {
                     
                     Spacer()
                 }
-                .frame(maxWidth: 70)
+                .frame(maxWidth: 65)
                 
                 Spacer()
                 
@@ -46,11 +46,11 @@ struct WeeklyForecastRowView: View {
                 
                 ZStack {
                     RoundedRectangle(cornerRadius: 100)
-                        .fill(Color.gray.opacity(0.2))
+                        .fill(Color.blue.opacity(0.3))
                         .frame(maxWidth: 100, maxHeight: 5)
                     
                     RoundedRectangle(cornerRadius: 100)
-                        .fill(Color.blue.opacity(0.3))
+                        .fill(Color.blue.opacity(0.5))
                         .frame(maxWidth: 50, maxHeight: 5)
                 }
                 

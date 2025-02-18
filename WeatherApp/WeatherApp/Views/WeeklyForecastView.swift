@@ -39,7 +39,9 @@ struct WeeklyForecastView: View {
             WeeklyForecastRowView(day: "Wed", icon: "sun.max.fill", loTemp: 31, hiTemp: 45)
         }
         .frame(maxWidth: .infinity)
-        .background(.blue.opacity(0.3))
+        .background(.blue.opacity(0.1))
+        .shadow(radius: 10.0)
+        .border(Color.gray.opacity(0.1), width: 0.5)
         .cornerRadius(10)
         .padding(.horizontal, 25)
     }

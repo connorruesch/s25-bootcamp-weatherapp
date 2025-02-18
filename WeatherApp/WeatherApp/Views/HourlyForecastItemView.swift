@@ -29,5 +29,6 @@ struct HourlyForecastItemView: View {
                 .foregroundStyle(.white)
         }
         .padding(0.3)
+        .padding(.horizontal, 3)
     }
 }

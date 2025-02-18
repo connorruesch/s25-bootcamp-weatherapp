@@ -12,7 +12,7 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             // Background
-            LinearGradient(colors: [Color.blue, Color.blue.opacity(0.5), Color.white], startPoint: .top, endPoint: .bottom)
+            LinearGradient(colors: [Color.blue, Color.blue.opacity(0.5), Color.blue.opacity(0.3)], startPoint: .top, endPoint: .bottom)
                 .ignoresSafeArea()
             
             ScrollView {
