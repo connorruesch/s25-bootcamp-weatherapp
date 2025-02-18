@@ -40,9 +40,9 @@ struct WeeklyForecastView: View {
         }
         .frame(maxWidth: .infinity)
         .background(.blue.opacity(0.1))
-        .shadow(radius: 10.0)
         .border(Color.gray.opacity(0.1), width: 0.5)
         .cornerRadius(10)
+        .shadow(radius: 10.0)
         .padding(.horizontal, 25)
     }
 }
